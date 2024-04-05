@@ -3,4 +3,44 @@ h1
     background-color: violet;
     text-align: center;
     text-shadow: 0cap;
+
+
+
 }
+
+
+/* universal selectors: */
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+#para1
+{
+
+    border: 5px solid red;
+    padding: 50px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+
+}
+
+
+#para2
+{
+
+    border: 5px solid red;
+    padding: 50px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+
+
+}
+
