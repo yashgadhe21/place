@@ -52,8 +52,16 @@ h1
      text-decoration: underline;
      text-decoration-style: wavy;
      text-decoration-color: black;
-     
 
 
+}
+
+.hello
+{
+    color: aqua;
+    background-color: brown;
+    display: inline;
+    display: inline-block;
+    
 
 }
