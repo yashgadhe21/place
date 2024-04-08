@@ -14,13 +14,47 @@
         {
 
             margin-left: 10px;
-
         }
 
         div
         {
             border: 2px solid black;
 
+        }
+
+        #imgs
+        {
+            position: relative;
+            height: 8000px;
+        }
+
+
+        .img1
+        {
+            /* OPSITION IS NOT RELATIVELY SO NOTHING WILL HAPPEND */
+            /* top: 50px; */ 
+
+            /* AFTER DOING THE RELATIVE POSITION IT WILL CHANGE  */
+
+            /* position: absolute;
+            top: 50px; */
+
+        }
+
+        .img4{
+            position: fixed;
+        }
+
+        .img3
+        {
+            position: sticky;
+            top: 0px;
+
+        }
+
+        .box{
+            background:pink;
+            height: 5000px;
         }
 
 
@@ -61,9 +95,10 @@
         <img src="bark-8526227_640.jpg" width="300px" 
         class="img4" 
         alt="img4">
-        
+    
+    </div>
 
-
+    <div class="box">
         
     </div>
  
