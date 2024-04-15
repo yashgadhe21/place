@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,10 @@
     <title>Document</title>
 </head>
 
+
+
 <style>
+
     
 .box
 {
@@ -14,14 +18,24 @@
     border:2px solid black;
     background: violet;
     height: 400px;
-    width: 600px;
+    width: 400px;
+
 }
 
-@media (min-width:500px){
+
+/* 
+@media (max-width:500px){
     .box{
         background: orange;
     }
 
+} */
+
+@media (min-width:300px) and (max-width:500px) {
+    .box{
+        background: orange;
+    }
+    
     
 }
 
