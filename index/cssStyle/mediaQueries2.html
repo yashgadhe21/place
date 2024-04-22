@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .box{
+            border: 1px solid black;
+            display: flex; 
+            
+        
+        }
+
+        #A{
+            background: pink;
+            border: 1px solid red;
+            height: 50px;
+            width: 50px;
+            margin: 20px;
+            padding: 20px;
+
+        }
+
+        #B{
+            background: red;
+            border: 1px solid red;
+            height: 50px;
+            width: 50px;
+            margin: 20px;
+            padding: 20px;
+
+        }
+
+        #C{
+            background: maroon;
+            border: 1px solid red;
+            height: 50px;
+            width: 50px;
+            margin: 20px;
+            padding: 20px;
+
+        }
+
+        #D{
+
+            background: yellow;
+            border: 1px solid red;
+            height: 50px;
+            width: 50px;
+            margin: 20px;
+            padding: 20px;
+
+        }
+
+         @media (min-width:640px) {
+
+            #A{
+                flex-direction: row;
+
+            }
+            
+        }
+
+        @media (max-width:640px) {
+            .box{
+
+                flex-direction: column;
+
+            }
+            
+        } 
+
+
+    </style>
+    
+</head>
+
+<body>
+
+    <div class="box">
+
+        <div class="contaner" id="A">A</div>
+        <div class="contaner" id="B">B</div>
+        <div class="contaner" id="C">C</div>
+        <div class="contaner" id="D">D</div>
+
+    </div>
+    
+</body>
+</html>
